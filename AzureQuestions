@@ -1,0 +1,93 @@
+1.High availabilty set about
+ANS.An availability set is a logical grouping of VMs that allows Azure to understand how your application is built to provide for redundancy and availability. We recommended that two or more VMs are created within an availability set to provide for a highly available application and to meet the 99.95% Azure SLA.
+
+3.availability zone in azure about
+
+Azure Availability Zones are separate data center units within Microsoft Azure, each with its own power, cooling and networking. By running services on multiple availability zones, you can make your applications resilient to failure or disruption in your primary data center.
+
+4.wht is data replication use in azure
+
+to several data tracking, loading, replicating, and streaming tools that you can use to synchronize data changes from your Azure SQL Database to other destinations. More specifically, we will cover: change data capture (CDC), SQL Data Sync, and change tracking.
+
+5.what are differant ways to connect to azure cloud
+
+
+6.what is express router in azure
+
+Azure Portal.
+Azure Power Shell.
+Azure CLI.
+
+7. when is used express router
+
+The express. Router() function is used to create a new router object. This function is used when you want to create a new router object in your program to handle requests.
+8.tell me about core storage services in azure
+
+
+9.how do we connect azure with cli
+
+
+10.do you write scripts in azure
+11.i wnat to create new vm and i want to create new data center also can we do this by using scripting
+12.how we enable site to site vpn
+
+You can connect your on-premises computers and networks to a virtual network using any of the following options:
+
+Point-to-site virtual private network (VPN): Established between a virtual network and a single computer in your network. Each computer that wants to establish connectivity with a virtual network must configure its connection. This connection type is great if you're just getting started with Azure, or for developers, because it requires little or no changes to your existing network. The communication between your computer and a virtual network is sent through an encrypted tunnel over the internet. To learn more, see Point-to-site VPN.
+Site-to-site VPN: Established between your on-premises VPN device and an Azure VPN Gateway that is deployed in a virtual network. This connection type enables any on-premises resource that you authorize to access a virtual network. The communication between your on-premises VPN device and an Azure VPN gateway is sent through an encrypted tunnel over the internet. To learn more, see Site-to-site VPN.
+Azure ExpressRoute: Established between your network and Azure, through an ExpressRoute partner. This connection is private. Traffic does not go over the internet. To learn more, see ExpressRoute.
+
+13.how to configeure virtual networking in azure cloud
+
+  Steps :Select Create a resource in the upper left-hand corner of the portal.
+
+In the search box, enter Virtual Network. Select Virtual Network in the search results.
+
+In the Virtual Network page, select Create.
+
+In Create virtual network, enter or select this information in the Basics tab:
+
+Setting	Value
+Project details	
+Subscription	Select your subscription.
+Resource group	Select Create new.
+Enter myResourceGroup.
+Select OK.
+Instance details	
+Name	Enter myVNet.
+Region	Select (US) East US.
+Screenshot of creating a virtual network in Azure portal.
+
+Select the IP Addresses tab, or select the Next: IP Addresses button at the bottom of the page and enter in the following information then select Add:
+
+Setting	Value
+IPv4 address space	Enter 10.1.0.0/16.
+Add subnet	
+Subnet name	Enter MySubnet.
+Subnet address range	Enter 10.1.0.0/24.
+Select Add.	
+Screenshot of editing ip address tab for virtual network.
+
+Select the Security tab, or select the Next: Security button at the bottom of the page.
+
+Under BastionHost, select Enable. Enter this information:
+
+Setting	Value
+Bastion name	Enter myBastionHost
+AzureBastionSubnet address space	Enter 10.1.1.0/24
+Public IP Address	Select Create new.
+For Name, enter myBastionIP.
+Select OK.
+Screenshot of editing security tab for virtual network.
+
+Select the Review + create tab or select the Review + create button.
+
+Select Create.
+14.how do troubleshoot virtual networking issues in azure
+15.how to config dr in azure
+16.have you done any automation in azure
+17.any knowlegde about linux
+18.how to do migration in azure cloud
+19.about backup in azure
+20. backup is fail how do we fix on azure
+21.azure  policy about
